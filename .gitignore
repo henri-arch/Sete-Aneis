@@ -1,0 +1,63 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+.yarn/install-state.gz
+
+# Environment & secrets (never commit keys)
+.env
+.env.local
+.env.development
+.env.development.local
+.env.test
+.env.test.local
+.env.production
+.env.production.local
+.env*.local
+
+# Build / framework outputs
+dist/
+.output/
+.vercel/
+.nitro/
+.tanstack/
+.vinxi/
+.vite/
+.cache/
+*.tsbuildinfo
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Test / coverage / playwright
+coverage/
+playwright-report/
+test-results/
+blob-report/
+
+# Local databases (PGLite / sqlite)
+*.db
+*.db-journal
+.pglite/
+.data/
+
+# Grok workspace scaffold (internal tooling — not needed on GitHub/Vercel)
+.grok/
+.grok/**
+.node_modules.lock
+
+# Optional local lock churn (keep package-lock if you prefer deterministic CI — uncomment to ignore)
