@@ -1,6 +1,9 @@
 {
   "name": "hellaverse-rpg",
   "version": "2.7.2",
+  "engines": {
+  "node": "22.x"
+},
   "description": "Sete An\u00e9is \u2014 Hellaverse RPG com Mestre de IA (base rumo \u00e0 v3.0)",
   "private": true,
   "sideEffects": false,
